@@ -1,0 +1,15 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popUp {
+    z-index: 99999;
+    position: sticky;
+    top: 250px;
+    background-color: #1f1f1f;
+    width: 568px;
+    height: 460px;
+    border-radius: 5px;
+}

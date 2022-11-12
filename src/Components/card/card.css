@@ -1,0 +1,217 @@
+    .library {
+        color: white;
+        margin: 0px 50px;
+    }
+    
+    .library_info {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .library_info>span {
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none solid rgba(255, 255, 255, 0.7);
+        margin-bottom: 30px;
+    }
+    
+    .tittle {
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        font-weight: 600;
+        padding: 0px;
+    }
+    
+    .tittle>h3 {
+        color: #DBA506;
+    }
+    
+    .tittle>h3 {
+        text-decoration: none;
+    }
+    
+    .tittle:hover {
+        color: #DBA506;
+    }
+    
+    .link {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .link:hover {
+        color: #DBA506;
+        text-decoration: none;
+    }
+    
+    .next:hover {
+        color: #DBA506;
+    }
+    
+    .library_cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 24px;
+    }
+    
+    .card {
+        width: 185px;
+        height: 470px;
+        background-color: #1A1A1A;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        border: 0.3px solid #1A1A1A;
+        border-radius: 0 0 5px 5px;
+    }
+    
+    .card_img {
+        flex: 6;
+        width: 100%;
+        height: 270px;
+        object-fit: cover;
+    }
+    
+    .Card_info {
+        flex: 3;
+    }
+    
+    .card_rating {
+        font-size: 16px;
+        gap: 0px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .card_rating>span {
+        margin-left: -10px;
+    }
+    
+    .FontAwesomeIcon {
+        color: #DBA506;
+    }
+    
+    .Card_tittle {
+        font-size: 16px;
+        margin-left: 10px;
+        font-weight: 400;
+    }
+    
+    .card_button {
+        width: 155px;
+        height: 30px;
+        background-color: #2B2B2B;
+        margin: 20px 10px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #5799ef;
+    }
+    
+    .card_button>span {
+        font-size: 14px;
+        margin: 5px;
+    }
+    
+    .card_addInfo {
+        flex: 2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    
+    .trailer {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: 14px;
+        width: 50%;
+        height: 36px;
+        margin-left: 10px;
+    }
+    
+    .play {
+        color: #5a5858;
+    }
+    
+    .play:hover {
+        color: #ffff
+    }
+    
+    .trailer>span {
+        margin-left: -5px;
+        font-size: 14px;
+        font-weight: 500;
+        color: white;
+    }
+    
+    .trailer:hover {
+        width: 50%;
+        height: 36px;
+        margin-left: 10px;
+        background-color: #2B2B2B;
+        border-radius: 5px;
+        color: #5799ef;
+    }
+    
+    .trailer>span:hover {
+        color: #5799ef;
+    }
+    
+    .info {
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+        text-align: center;
+        margin: auto;
+        padding: 0px;
+        border-radius: 50%;
+    }
+    
+    .info:hover {
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+        text-align: center;
+        margin: auto;
+        padding: 0px;
+        background-color: #2B2B2B;
+        border-radius: 50%;
+    }
+    
+    .info-hover {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .library {
+            color: white;
+            margin: 0px 5px;
+        }
+        .library_cards {
+            overflow-x: auto;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            align-items: center;
+            gap: 13px;
+        }
+        .card {
+            width: 180px;
+            height: 450px;
+            background-color: #1A1A1A;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            border-radius: 0 0 5px 5px;
+        }
+    }
